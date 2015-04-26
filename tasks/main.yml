@@ -1,0 +1,6 @@
+# Installs and configures maven.
+---
+
+- include: prerequisites.yml
+
+- include: setup.yml

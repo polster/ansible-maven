@@ -1,0 +1,11 @@
+# Variables that shall not be overridden.
+---
+
+# Maven install package file name
+maven_package_filename: "apache-maven-{{ maven_version }}-bin.tar.gz"
+
+# Remote path to store temporary data
+remote_ansible_data_path: "/usr/local/src/ansible/data"
+
+# Path for mvn symlink to make maven available to the system
+maven_bin_path: "/usr/local/bin"
