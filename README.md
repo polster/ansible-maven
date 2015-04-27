@@ -35,3 +35,4 @@ roles:
 | maven_version | The explicit maven version to be installed | 3.3.1 | No |
 | maven_mirror_url_binaries | The URL pointing to the web location where the binaries can be found | See defaults/main.yml | No |
 | maven_install_dir | The default install dir | /opt/maven | No |
+| maven_bin_path | The path used to create a symlink to the installed maven version | /usr/local/bin | No |
